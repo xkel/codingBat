@@ -1,6 +1,6 @@
 def last2(str):
   #if a substring that is a length of 2 appears in the string and is the last 2 -
-  #characters of the string return the number of times it appears minus the end
+  #characters of the string return the number of times it appears minus the end substring
   
   #define a substring that is length 2
   ##twoLong = str[:2]
@@ -12,4 +12,24 @@ def last2(str):
   for i in range(0,len(str):
     if i = i*2:
       return count + 1
+      
+def last2(str):
+  #if a substring that is a length of 2 appears in the string and is the last 2 -
+  #characters of the string return the number of times it appears minus the end substring
   
+  #define a substring that is length 2
+  ##twoLong = str[:2]
+  ##if len(twoLong) == 2
+  
+  #define end of the string
+  lastChar = str[-1]
+  2ndLastChar = str[-2]
+  if (lastChar == 2ndLastChar):
+    endSubstring = lastChar
+  count = 0
+  for i in range(0,len(str):
+    if i = i*2:
+      count = count + 1
+  
+      
+
